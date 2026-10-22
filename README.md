@@ -5,7 +5,7 @@ Smart monitor for WLAN/Wi-Fi Site
 
 ## Instalação e uso
 
-Precisa de Python 3.12 ou mais recente. Não usa bibliotecas externas, exceto as opcionais indicadas abaixo, e não precisa de root nem de administrador.
+Precisa de Python 3.8 ou mais recente. Não usa bibliotecas externas, exceto as opcionais indicadas abaixo, e não precisa de root nem de administrador.
 
 ### Linux
 

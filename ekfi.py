@@ -2425,7 +2425,8 @@ def render_report(d, opts):
     s = d["score"]
     name, color = grade(s["valor"])
     o.line(C.bold(f"Ekfi · {d['conexao']['ssid'] or '?'} · {d['iface']} · {d['timestamp'].replace('T', ' ')}"))
-    o.line(f"  Saúde geral do Wi-Fi: {color(C.bold(f'{s['valor']}/100 – {name}'))}  {bar(s['valor'], 30)}")
+    score_txt = f"{s['valor']}/100 – {name}"
+    o.line(f"  Saúde geral do Wi-Fi: {color(C.bold(score_txt))}  {bar(s['valor'], 30)}")
     for _, _, fn in PAGES[1:]:
         if fn is page_internet and "internet" not in d:
             continue
