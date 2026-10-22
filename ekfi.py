@@ -2492,7 +2492,7 @@ class Monitor:
 # ───────────────────────────── interface interativa (curses) ─────────────────────────────
 
 SPINNER = "⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏"
-SITE_URL = "https://distribuidor.ektech.com.br/"
+SITE_URL = "https://aescolhacertaparasuarede.com.br/"
 
 
 def footer_keys():
